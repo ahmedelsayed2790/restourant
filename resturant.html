@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="eg">
+
+<head>
+
+    <title>مطعم.html</title>
+
+    <link rel="resturantsheet" href="sayed.css">
+
+
+</head>
+
+<body>
+    <form method="post" action="form.aspx">
+
+        <h1> customer name: <input type="text" id="customername" name="customer" placeholder="what's your name"> </h1>
+
+        <fieldset>
+            <legend>pizza size</legend>
+            <p>
+                <label><input type="radio" name="size" value="small"> small (10 p)
+		</label>
+            </p>
+            <p>
+                <label><input type="radio" name="size" value="medium" > medium (15 p)
+		</label>
+            </p>
+            <p>
+                <label><input type="radio" name="size" value="large"> large (20 p)
+		</label>
+            </p>
+            <p>
+                <label><input type="radio" name="size" value="large"> large (25 p)
+		</label>
+            </p>
+            <p>
+                <label><input type="radio" name="size" value="large"> large (30 p)
+		</label>
+            </p>
+            <p>
+                <label><input type="radio" name="size" value="large"> large (35 p)
+		</label>
+            </p>
+            <p>
+                <label><input type="radio" name="size" value="large"> large (40 p)
+		</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>pizza Toppings</legend>
+            <p><label> <input type="checkbox" name="toppings" value="bacon"> Bacon</label></p>
+            <p><label> <input type="checkbox" name="toppings" value="cheese">Extra cheese</label></p>
+            <p><label> <input type="checkbox" name="toppings" value="onion" > onion</label></p>
+            <p><label> <input type="checkbox" name="toppings" value="mushrom"> mushrom </label></p>
+
+        </fieldset>
+
+
+
+
+
+        <p>crust
+            <select>
+                        <option value="c3">Mokattam</option>
+			<option value="c1">Cairo (+10)</option>
+			<option value="c2">Giza(+10)</option>
+			
+			
+			</select>
+
+        </p>
+
+        <p><label>delivery instructions:
+			<textarea name="comments" cols="50" rows="5" maxlength="1000">
+How do we get to your house?
+			</textarea>
+			</label></p>
+
+
+
+        <p><input type="submit" value="continue to step 2"></p>
+        <p><input type="reset" value="reset values"></p>
+
+
+
+    </form>
+
+
+</body>
+
+</html>
